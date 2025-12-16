@@ -103,19 +103,6 @@ The model computes the following metrics during training and evaluation:
 - **AUC (Area Under ROC Curve)**: A measure of the model's ability to rank DDI pairs.
 - **AUPR (Area Under Precision-Recall Curve)**: A measure of the model's ability to identify true positives in DDI predictions.
 
-### 4. Saving and Loading the Model
-
-After training, the model can be saved using:
-
-```python
-model.save('path_to_save')
-```
-
-To load the model:
-
-```python
-model.load_state_dict(torch.load('path_to_saved_model'))
-```
 
 ## Results
 
