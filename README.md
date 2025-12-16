@@ -28,19 +28,6 @@ This framework requires the following dependencies:
 - **NetworkX** 2.8.8
 - **DGL** 2.1.0+cu117
 
-You can install the required packages by using `conda` or `pip`. To install the environment from the provided `environment.yml` or a similar setup:
-
-```bash
-conda create --name Tiger python=3.9
-conda activate Tiger
-conda install pytorch torchvision torchaudio pytorch-geometric rdkit scikit-learn tqdm matplotlib networkx dgl -c conda-forge
-```
-
-Alternatively, install with `pip`:
-
-```bash
-pip install torch torchvision torchaudio torch-geometric rdkit scikit-learn tqdm matplotlib networkx dgl
-```
 
 ## Model Overview
 
